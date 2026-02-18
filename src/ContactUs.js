@@ -1,38 +1,7 @@
 // src/ContactUs.js
 import React from 'react';
 
-const ContactUs = ({ lang }) => {
-  const content = {
-    en: {
-      title: "Get in Touch",
-      subtitle: "We're here to help. Reach out with any questions, feedback, or support requests.",
-      assurance: "Our dedicated support team is committed to assisting you. Please fill out the form below, and we promise to get back to you within 48 hours. Your success is our priority.",
-      nameLabel: "Full Name",
-      emailLabel: "Email Address",
-      subjectLabel: "Subject",
-      messageLabel: "Your Message",
-      submitButton: "Send Message",
-      contactInfo: "Contact Information",
-      email: "support@harvesttrack.com",
-      phone: "+91 98765 43210",
-      address: "Pune, Maharashtra, India"
-    },
-    mr: {
-      title: "आमच्याशी संपर्क साधा",
-      subtitle: "आम्ही मदतीसाठी येथे आहोत. कोणतेही प्रश्न, अभिप्राय किंवा समर्थनासाठी आमच्याशी संपर्क साधा.",
-      assurance: "आमची समर्पित सपोर्ट टीम तुम्हाला मदत करण्यासाठी वचनबद्ध आहे. कृपया खालील फॉर्म भरा, आणि आम्ही तुम्हाला ४८ तासांच्या आत प्रतिसाद देऊ. तुमचे यश हेच आमचे प्राधान्य आहे.",
-      nameLabel: "पूर्ण नाव",
-      emailLabel: "ई-मेल ॲड्रेस",
-      subjectLabel: "विषय",
-      messageLabel: "तुमचा संदेश",
-      submitButton: "संदेश पाठवा",
-      contactInfo: "संपर्क माहिती",
-      email: "support@harvesttrack.com",
-      phone: "+91 98765 43210",
-      address: "पुणे, महाराष्ट्र, भारत"
-    }
-  };
-
+const ContactUs = ({ lang, content }) => {
   const t = content[lang] || content.en;
 
   const handleSubmit = (e) => {
@@ -43,51 +12,51 @@ const ContactUs = ({ lang }) => {
   return (
     <div className="page-container contact-us-page">
       <div className="section-header" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>{t.title}</h1>
-        <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>{t.subtitle}</p>
+        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>{t.contactContent.title}</h1>
+        <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>{t.contactContent.subtitle}</p>
       </div>
 
       <div className="contact-layout">
         <div className="contact-form-container">
           <p style={{ marginBottom: '2rem', textAlign: 'center', fontStyle: 'italic', color: 'var(--primary-color)' }}>
-            {t.assurance}
+            {t.contactContent.assurance}
           </p>
           <form onSubmit={handleSubmit} className="contact-form">
             <div className="form-group">
-              <label htmlFor="name">{t.nameLabel}</label>
+              <label htmlFor="name">{t.contactContent.nameLabel}</label>
               <input type="text" id="name" name="name" required />
             </div>
             <div className="form-group">
-              <label htmlFor="email">{t.emailLabel}</label>
+              <label htmlFor="email">{t.contactContent.emailLabel}</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div className="form-group">
-              <label htmlFor="subject">{t.subjectLabel}</label>
+              <label htmlFor="subject">{t.contactContent.subjectLabel}</label>
               <input type="text" id="subject" name="subject" required />
             </div>
             <div className="form-group">
-              <label htmlFor="message">{t.messageLabel}</label>
+              <label htmlFor="message">{t.contactContent.messageLabel}</label>
               <textarea id="message" name="message" rows="5" required></textarea>
             </div>
             <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>
-              {t.submitButton}
+              {t.contactContent.submitButton}
             </button>
           </form>
         </div>
 
         <div className="contact-info-container">
-          <h3>{t.contactInfo}</h3>
+          <h3>{t.contactContent.contactInfo}</h3>
           <div className="info-item">
             <strong>Email:</strong>
-            <p><a href={`mailto:${t.email}`}>{t.email}</a></p>
+            <p><a href={`mailto:${t.contactContent.email}`}>{t.contactContent.email}</a></p>
           </div>
           <div className="info-item">
             <strong>Phone:</strong>
-            <p>{t.phone}</p>
+            <p>{t.contactContent.phone}</p>
           </div>
           <div className="info-item">
             <strong>Address:</strong>
-            <p>{t.address}</p>
+            <p>{t.contactContent.address}</p>
           </div>
         </div>
       </div>
