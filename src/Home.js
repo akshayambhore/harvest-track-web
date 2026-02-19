@@ -10,6 +10,10 @@ import RT2 from './assets/RT2.jpeg';
 import RT3 from './assets/RT3.jpeg';
 import WCH1 from './assets/WCH1.jpeg';
 import WCH2 from './assets/WCH2.jpeg';
+
+import save from './assets/save.jpeg';
+import track from './assets/track.jpeg';
+import Farm from './assets/Farm.jpeg';  
 // import step3 from './assets/temp.jpeg';
 
 const Home = ({ lang , content}) => {
@@ -22,7 +26,7 @@ const Home = ({ lang , content}) => {
         <div className="hero-bg-blob" />
 
         <div className="home-left">
-          <div className="badge-pill">🚀 New: Instant Invoicing</div>
+          {/* <div className="badge-pill">🚀 New: Instant Invoicing</div> */}
           <h1 className="hero-title">
             {t.title} <br />
             <span className="text-gradient">{t.subtitle}</span>
@@ -81,7 +85,7 @@ const Home = ({ lang , content}) => {
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-img-container">
-              <img src={WCH1} alt="Crop Monitoring" />
+              <img src={track} alt="Crop Monitoring" />
               <div className="overlay" />
             </div>
             <div className="feature-content">
@@ -135,19 +139,19 @@ const Home = ({ lang , content}) => {
         <div className="steps-container">
           <div className="step-card">
             <div className="step-number">01</div>
-            <div className="image-placeholder"><img src={step1} alt="Use Step 1" /></div>
+            <div className="image-placeholder"><img src={Farm} alt="Use Step 1" /></div>
             <h3>{t.useStep1}</h3>
             <p>{t.useStep1Desc}</p>
           </div>
           <div className="step-card">
             <div className="step-number">02</div>
-            <div className="image-placeholder"><img src={step1} alt="Use Step 2" /></div>
+            <div className="image-placeholder"><img src={save} alt="Use Step 2" /></div>
             <h3>{t.useStep2}</h3>
             <p>{t.useStep2Desc}</p>
           </div>
           <div className="step-card">
             <div className="step-number">03</div>
-            <div className="image-placeholder"><img src={step1} alt="Use Step 3" /></div>
+            <div className="image-placeholder"><img src={WCH1} alt="Use Step 3" /></div>
             <h3>{t.useStep3}</h3>
             <p>{t.useStep3Desc}</p>
           </div>

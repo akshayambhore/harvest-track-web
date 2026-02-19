@@ -11,9 +11,9 @@ export const content = {
         joinTesting: "to join the testing phase, send 'Hi' on WhatsApp to +91 9158051936",
   
         featTitle: "Why Choose Harvest Track?",
-        feat1Title: "Smart Crop Monitoring",
-        feat1Desc: "Track every stage of your crop's growth with digital logs and photo updates. Register agents and machine helpers, assign them to work, and set per-acre amounts to streamline operations.",
-        feat2Title: "Financial Management",
+        feat1Title: "Track the Harvester",
+feat1Desc: "Track the harvester's location using the driver's device or any personal device.",
+  feat2Title: "Financial Management",
         feat2Desc: "Keep a precise record of expenses and income to calculate your exact profit. Trace every phone call, monitor payment statuses (paid or unpaid), and view farm activity.",
         feat3Title: "Instant Reports",
         feat3Desc: "Generate PDF reports for banks and invoices for buyers in one click.",
@@ -21,19 +21,19 @@ export const content = {
         guideTitle: "How to Register as Tester",
         step1: "Click on login button",
         step1Desc: "",
-        step2: "Register as owner",
+        step2: "Click on Register Here ",
         step2Desc: "",
-        step3: "Fill the information and we will send you an OTP, click on log in",
+        step3: "Fill the information and we will send you an OTP, click on Register",
         step3Desc: "",
   
         useGuideTitle: "How to Use Premium Features",
-        useStep1: "Access Dashboard",
-        useStep1Desc: "Log in to view your main dashboard.",
-        useStep2: "Analyze Data",
-        useStep2Desc: "Click 'Analytics' to see advanced crop charts.",
-        useStep3: "Export Reports",
-        useStep3Desc: "Download detailed PDF reports for banks.",
-  
+        useStep1: "Create a Farm",
+        useStep1Desc: "Create a farm by adding a point on the map or by walking around the farm boundary.",
+        useStep2: "Save the Farm",
+        useStep2Desc: "Save the farm to the selected agent account by clicking on the 'Save' button.",
+        useStep3: "Go to Work",
+        useStep3Desc: "Click on any agent owner or helper to view their farms.",
+
         aboutTitle: "About Harvest Track",
         aboutDesc: "We are dedicated to modernizing agriculture through technology. Our app helps farmers manage operations efficiently.",
         readStory: "Read Our Story",
@@ -42,31 +42,35 @@ export const content = {
         plansInfo: "Our service is currently in the testing phase. We are not offering premium services yet. Instead, users can use all the features for free during this testing phase.",
 
         privacyTitle: "Privacy Policy",
-        privacyHeading: "Privacy Policy for HarvestTrack",
-        privacyContent: {
-          introduction: "HarvestTrack is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our app.",
-          informationWeCollect: "Information We Collect",
-          collectedData: [
-            "Name and mobile number during registration and login.",
-            "User role and authentication tokens.",
-            "Usage data (such as app interactions and device information)."
-          ],
-          howWeUseYourInformation: "How We Use Your Information",
-          usageOfData: [
-            "To create and manage user accounts.",
-            "To provide app features and personalize your experience.",
-            "To communicate with you regarding your account or app updates.",
-            "To improve our services and ensure security."
-          ],
-          dataSharing: "Data Sharing",
-          sharingPolicy: "We do not sell or share your personal information with third parties except as required by law or to provide core app functionality (such as backend authentication).",
-          dataSecurity: "Data Security",
-          securityPolicy: "We use industry-standard security measures to protect your data.",
-          yourRights: "Your Rights",
-          rightsPolicy: "You can request deletion of your account and data at any time (see Data Deletion section).",
-          contact: "Contact",
-          contactPolicy: "For questions or requests, contact us at  useapp.akshay@gmail.com."
-        },
+privacyHeading: "Privacy Policy for HarvestTrack",
+privacyContent: {
+introduction: "HarvestTrack is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our app.",
+informationWeCollect: "Information We Collect",
+collectedData: [
+"Name and mobile number during registration and login.",
+"User role and authentication tokens.",
+"Usage data (such as app interactions and device information).",
+"Location data (with your permission): device location used for machine tracking, map views, and location-based features."
+],
+howWeUseYourInformation: "How We Use Your Information",
+usageOfData: [
+"To create and manage user accounts.",
+"To provide app features and personalize your experience.",
+"To provide location-based features (live machine tracking, maps, job routing) when you grant location access.",
+"To communicate with you regarding your account or app updates.",
+"To improve our services and ensure security."
+],
+dataSharing: "Data Sharing",
+sharingPolicy: "We do not sell your personal information. We may share data (including location) with trusted service providers (e.g., backend hosting, mapping and analytics) who assist in providing core app functionality; they may only use data to provide those services. We may disclose information if required by law.",
+dataSecurity: "Data Security",
+securityPolicy: "We use industry-standard security measures (encryption in transit/storage, access controls) to protect your data, including location data.",
+dataRetention: "Data Retention",
+retentionPolicy: "We retain account, usage, and location data only as long as necessary to provide features or as required by law. Location history retention is limited to operational needs and can be deleted on request.",
+yourRights: "Your Rights",
+rightsPolicy: "You can request access, correction, or deletion of your account and data at any time. You can disable location access in the app or your device settings; disabling location may limit location-based features.",
+contact: "Contact",
+contactPolicy: "For questions or requests (data access or deletion), contact us at useapp.akshay@gmail.com."
+},
 
         dataSafetyTitle: "Data Safety",
         dataSafetyHeading: "Data Safety (Google Play Console)",
@@ -182,9 +186,9 @@ export const content = {
         joinTesting: "चाचणीमध्ये सामील होण्यासाठी, +91 9158051936 वर WhatsApp वर 'Hi' पाठवा",
   
         featTitle: "हार्वेस्ट ट्रॅक का निवडावे?",
-        feat1Title: "स्मार्ट पीक देखरेख",
-        feat1Desc: "डिजिटल नोंदी आणि फोटो अपडेट्ससह तुमच्या पिकाच्या प्रत्येक टप्प्यावर लक्ष ठेवा. एजंट आणि मशीन मदतनीस नोंदणी करा, त्यांना कामासाठी नियुक्त करा आणि कामकाज सुव्यवस्थित करण्यासाठी प्रति-एकर रक्कम सेट करा.",
-        feat2Title: "आर्थिक व्यवस्थापन",
+        feat1Title: "हार्वेस्टरचे ट्रॅकिंग करा",
+feat1Desc: "ड्रायव्हरच्या डिव्हाइसद्वारे किंवा कोणत्याही वैयक्तिक डिव्हाइसद्वारे हार्वेस्टरचे स्थान ट्रॅक करा.",
+feat2Title: "आर्थिक व्यवस्थापन",
         feat2Desc: "तुमचा नेमका नफा मोजण्यासाठी खर्च आणि उत्पन्नाची अचूक नोंद ठेवा. प्रत्येक फोन कॉलचा मागोवा घ्या, पेमेंट स्थिती (पेड किंवा अनपेड) तपासा आणि शेतातील क्रियाकलाप पहा.",
         feat3Title: "त्वरित अहवाल",
         feat3Desc: "एका क्लिकवर बँकेसाठी PDF अहवाल आणि खरेदीदारांसाठी बिले तयार करा.",
@@ -192,19 +196,19 @@ export const content = {
         guideTitle: "एक परीक्षक म्हणून नोंदणी कशी करावी",
         step1: "लॉगिन बटणावर क्लिक करा",
         step1Desc: "",
-        step2: "मालक म्हणून नोंदणी करा",
+        step2: "Register Here वर क्लिक करा",
         step2Desc: "",
-        step3: "माहिती भरा आणि आम्ही तुम्हाला एक OTP पाठवू, लॉग इन वर क्लिक करा",
+        step3: "माहिती भरा आणि आम्ही तुम्हाला एक OTP पाठवू, Register  वर क्लिक करा",
         step3Desc: "",
   
         useGuideTitle: "प्रीमियम वैशिष्ट्ये कशी वापरावी?",
-        useStep1: "डॅशबोर्डवर जा",
-        useStep1Desc: "लॉगिन करून मुख्य डॅशबोर्ड पहा.",
-        useStep2: "माहितीचे विश्लेषण",
-        useStep2Desc: "'Analytics' वर क्लिक करून पिकांचे चार्ट्स पहा.",
-        useStep3: "अहवाल डाउनलोड करा",
-        useStep3Desc: "बँकेसाठी लागणारे PDF अहवाल डाउनलोड करा.",
-  
+        useStep1: "शेत तयार करा",
+        useStep1Desc: "नकाशावर एक बिंदू जोडून किंवा शेताची सीमा चालत मोजून शेत तयार करा.",
+        useStep2: "शेत जतन करा",
+        useStep2Desc: "'सेव्ह' बटणावर क्लिक करून निवडलेल्या एजंट खात्यात शेत जतन करा.",
+        useStep3: "काम सुरू करा",
+        useStep3Desc: "कोणत्याही एजंट मालक किंवा सहाय्यकावर क्लिक करून त्यांची शेतं पहा.",
+
         aboutTitle: "हार्वेस्ट ट्रॅक बद्दल",
         aboutDesc: "आम्ही तंत्रज्ञानाद्वारे शेती आधुनिक करण्यासाठी समर्पित आहोत. आमचे ॲप शेतकऱ्यांना त्यांचे काम कार्यक्षमतेने करण्यास मदत करते.",
         readStory: "आमची गोष्ट वाचा",
@@ -212,33 +216,25 @@ export const content = {
         plansTitle: "योजना",
         plansInfo: "आमची सेवा सध्या चाचणीच्या टप्प्यात आहे. आम्ही अद्याप प्रीमियम सेवा देत नाही. त्याऐवजी, वापरकर्ते या चाचणीच्या टप्प्यात सर्व वैशिष्ट्ये विनामूल्य वापरू शकतात.",
 
-        privacyTitle: "गोपनीयता धोरण",
-        privacyHeading: "हार्वेस्टट्रॅकसाठी गोपनीयता धोरण",
-        privacyContent: {
-          introduction: "हार्वेस्टट्रॅक तुमच्या गोपनीयतेचे संरक्षण करण्यासाठी वचनबद्ध आहे. तुम्ही आमचे ॲप वापरता तेव्हा आम्ही तुमची माहिती कशी गोळा करतो, वापरतो आणि संरक्षित करतो हे हे गोपनीयता धोरण स्पष्ट करते.",
-          informationWeCollect: "आम्ही गोळा करत असलेली माहिती",
-          collectedData: [
-            "नोंदणी आणि लॉगिन दरम्यान नाव आणि मोबाईल नंबर.",
-            "वापरकर्त्याची भूमिका आणि प्रमाणीकरण टोकन.",
-            "वापर डेटा (जसे की ॲप संवाद आणि डिव्हाइस माहिती)."
-          ],
-          howWeUseYourInformation: "आम्ही तुमची माहिती कशी वापरतो",
-          usageOfData: [
-            "वापरकर्ता खाती तयार आणि व्यवस्थापित करण्यासाठी.",
-            "ॲप वैशिष्ट्ये प्रदान करण्यासाठी आणि तुमचा अनुभव वैयक्तिकृत करण्यासाठी.",
-            "तुमच्या खात्याबद्दल किंवा ॲप अद्यतनांबद्दल तुमच्याशी संवाद साधण्यासाठी.",
-            "आमच्या सेवा सुधारण्यासाठी आणि सुरक्षितता सुनिश्चित करण्यासाठी."
-          ],
-          dataSharing: "डेटा शेअरिंग",
-          sharingPolicy: "आम्ही कायद्यानुसार आवश्यक असल्याशिवाय किंवा मुख्य ॲप कार्यक्षमता प्रदान करण्यासाठी (जसे की बॅकएंड प्रमाणीकरण) तुमची वैयक्तिक माहिती तृतीय पक्षांना विकत किंवा सामायिक करत नाही.",
-          dataSecurity: "डेटा सुरक्षा",
-          securityPolicy: "आम्ही तुमच्या डेटाचे संरक्षण करण्यासाठी उद्योग-मानक सुरक्षा उपाय वापरतो.",
-          yourRights: "तुमचे हक्क",
-          rightsPolicy: "तुम्ही कधीही तुमचे खाते आणि डेटा हटवण्याची विनंती करू शकता (डेटा हटवणे विभाग पहा).",
-          contact: "संपर्क",
-          contactPolicy: "प्रश्न किंवा विनंत्यांसाठी, आमच्याशी  useapp.akshay@gmail.com येथे संपर्क साधा."
-        },
-
+        
+        privacyTitle: "गोपनीयता धोरण", 
+        privacyHeading: "हार्वेस्टट्रॅकसाठी गोपनीयता धोरण", 
+        privacyContent: { introduction: "हार्वेस्टट्रॅक तुमच्या गोपनीयतेचे संरक्षण करण्यासाठी वचनबद्ध आहे. हा गोपनीयता धोरण तुम्ही आमचे अ‍ॅप वापरत असताना आम्ही तुमची माहिती कशी गोळा करतो, वापरतो आणि संरक्षित करतो हे स्पष्ट करते.", 
+        informationWeCollect: "आम्ही गोळा करीत असलेली माहिती", 
+        collectedData: [ "नोंदणी आणि लॉगिन दरम्यान नाव आणि मोबाईल नंबर.", "वापरकर्त्याची भूमिका आणि प्रमाणीकरण टोकन्स.", "वापर डेटा (उदा. अ‍ॅप संवाद आणि डिव्हाइस माहिती).", "स्थानिक डेटा (तुमच्या परवानगीने): मशीन ट्रॅकिंग, नकाशे आणि स्थान-आधारित वैशिष्ट्यांसाठी उपकरणाचे स्थान." ], 
+        howWeUseYourInformation: "आम्ही तुमची माहिती कशी वापरतो", 
+        usageOfData: [ "वापरकर्ता खाती तयार आणि व्यवस्थापित करण्यासाठी.", "अ‍ॅपच्या वैशिष्ट्ये देण्यासाठी आणि तुमचा अनुभव वैयक्तिकृत करण्यासाठी.", "स्थान-आधारित वैशिष्ट्ये पुरवण्यासाठी (जसे की लाइव्ह मशीन ट्रॅकिंग, नकाशे, नोकरी मार्ग) जेव्हा तुम्ही स्थान प्रवेश देता.", "तुमच्या खात्याबद्दल किंवा अ‍ॅप अपडेट्सबद्दल तुम्हाला सूचित करण्यासाठी.", "आमच्या सेवा सुधारण्यासाठी आणि सुरक्षा सुनिश्चित करण्यासाठी." ], 
+        dataSharing: "डेटा शेअरिंग", 
+        sharingPolicy: "आम्ही तुमची वैयक्तिक माहिती विकत नाही. आम्ही विश्वसनीय सेवा प्रदात्यांसह (उदा. बॅकएंड होस्टिंग, नकाशे, विश्लेषण सेवा) डेटा (स्थान सहित) शेअर करू शकतो जे फक्त मुख्य अ‍ॅप कार्यक्षमता पुरवण्यासाठी उपयोग करतात. कायद्याच्या गरजेनुसार माहिती उघड करावी लागू शकते.", 
+        dataSecurity: "डेटा सुरक्षा", 
+        securityPolicy: "आम्ही तुमच्या डेटाचे संरक्षण करण्यासाठी उद्योग-मानक सुरक्षा उपाय (संचरण/साठवणीत एन्क्रिप्शन, प्रवेश नियंत्रण) वापरतो, ज्यात स्थानिक डेटा समाविष्ट आहे.", 
+        dataRetention: "डेटा राखण", 
+        retentionPolicy: "आम्ही खाते, वापर आणि स्थानिक डेटा तेव्हा पर्यंत ठेवतो जेव्हा पर्याय आवश्यक आहे किंवा कायद्याने आवश्यक आहे. ऑपरेशनल गरजांसाठी स्थान इतिहासाची राखण मर्यादित आहे आणि विनंतीनुसार हटवता येऊ शकते.", 
+        yourRights: "तुमचे हक्क", 
+        rightsPolicy: "तुम्ही कधीही तुमच्या खात्याचा डेटा पाहण्याची, सुधारण्याची किंवा हटवण्याची विनंती करू शकता. तुम्ही अ‍ॅप किंवा डिव्हाइस सेटिंग्जमध्ये स्थान प्रवेश अक्षम करू शकता; स्थान अक्षम केल्यास स्थान-आधारित वैशिष्ट्ये मर्यादित होऊ शकतात.", 
+        contact: "संपर्क", 
+        contactPolicy: "माहिती किंवा हटवण्याबाबत प्रश्न किंवा विनंत्यांसाठी आमच्याशी संपर्क साधा: useapp.akshay@gmail.com."},
+        
         dataSafetyTitle: "डेटा सुरक्षा",
         dataSafetyHeading: "डेटा सुरक्षा (Google Play Console)",
         dataSafetyContent: {
