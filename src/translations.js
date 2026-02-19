@@ -7,22 +7,24 @@ export const content = {
         btnContact: "Contact Support",
         secure: "Secure payments powered by",
         downloadText: "Available now on",
+        playStoreAvailabile: "Link to the Play Store will be available after 5 March",
+        joinTesting: "to join the testing phase, send 'Hi' on WhatsApp to +91 9158051936",
   
         featTitle: "Why Choose Harvest Track?",
         feat1Title: "Smart Crop Monitoring",
-        feat1Desc: "Track every stage of your crop's growth with digital logs and photo updates.",
+        feat1Desc: "Track every stage of your crop's growth with digital logs and photo updates. Register agents and machine helpers, assign them to work, and set per-acre amounts to streamline operations.",
         feat2Title: "Financial Management",
-        feat2Desc: "Keep a precise record of expenses and income to calculate your exact profit.",
+        feat2Desc: "Keep a precise record of expenses and income to calculate your exact profit. Trace every phone call, monitor payment statuses (paid or unpaid), and view farm activity.",
         feat3Title: "Instant Reports",
         feat3Desc: "Generate PDF reports for banks and invoices for buyers in one click.",
   
-        guideTitle: "How to Buy Premium",
-        step1: "Create an Account",
-        step1Desc: "Sign up using your mobile number.",
-        step2: "Select a Plan",
-        step2Desc: "Choose the plan that fits your farm.",
-        step3: "Payment",
-        step3Desc: "Pay securely via UPI or Card.",
+        guideTitle: "How to Register as Tester",
+        step1: "Click on login button",
+        step1Desc: "",
+        step2: "Register as owner",
+        step2Desc: "",
+        step3: "Fill the information and we will send you an OTP, click on log in",
+        step3Desc: "",
   
         useGuideTitle: "How to Use Premium Features",
         useStep1: "Access Dashboard",
@@ -36,13 +38,13 @@ export const content = {
         aboutDesc: "We are dedicated to modernizing agriculture through technology. Our app helps farmers manage operations efficiently.",
         readStory: "Read Our Story",
 
-        pricingTitle: "Free Testing Phase",
-        pricingInfo: "Our service is currently in the testing phase. We are not offering premium services yet. Instead, users can use all the features for free during this testing phase.",
+        plansTitle: "Plans",
+        plansInfo: "Our service is currently in the testing phase. We are not offering premium services yet. Instead, users can use all the features for free during this testing phase.",
 
         privacyTitle: "Privacy Policy",
         privacyHeading: "Privacy Policy for HarvestTrack",
         privacyContent: {
-          introduction: "HarvestTrack (“we”, “our”, or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our app.",
+          introduction: "HarvestTrack is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our app.",
           informationWeCollect: "Information We Collect",
           collectedData: [
             "Name and mobile number during registration and login.",
@@ -130,8 +132,8 @@ export const content = {
           messageLabel: "Your Message",
           submitButton: "Send Message",
           contactInfo: "Contact Information",
-          email: "support@harvesttrack.com",
-          phone: "+91 98765 43210",
+          email: "useapp.akshay@gmail.com",
+          phone: "+91 9158051936",
           address: "Pune, Maharashtra, India"
         },
         aboutUs: {
@@ -142,12 +144,12 @@ export const content = {
           },
           teamSection: {
             title: "Our Team",
-            content: "Harvest Track is developed and maintained by <strong>[Your Company Name / Individual Name]</strong>. We are passionate about agriculture and technology, striving to bring the best tools to the farming community."
+            content: "Harvest Track is developed and maintained by <strong> Us</strong>. We are passionate about agriculture and technology, striving to bring the best tools to the farming community."
           }
         },
         nav: {
           home: "Home",
-          pricing: "Pricing",
+          plans: "Plans",
           privacyPolicy: "Privacy Policy",
           dataDeletion: "Data Deletion",
           about: "About",
@@ -157,6 +159,15 @@ export const content = {
           termsAndConditions: "Terms & Conditions",
           aboutUs: "About Us",
           refundPolicy: "Refund Policy"
+        },
+        faq: {
+          title: "Frequently Asked Questions",
+          q1: "How does Premium work?",
+          a1: "Premium unlocks unlimited entries, secure cloud backup, and detailed PDF reports for your harvests.",
+          q2: "How do I extend my premium?",
+          a2: "You can renew your subscription through the app settings under 'Manage Subscription'. Payments are processed securely via Razorpay.",
+          q3: "I have a payment issue. What should I do?",
+          a3: "Please contact our support team via the Contact Us page with your transaction ID, and we will resolve it within 24 hours."
         }
       },
       mr: {
@@ -167,22 +178,24 @@ export const content = {
         btnContact: "संपर्क साधा",
         secure: "सुरक्षित पेमेंट",
         downloadText: "आता उपलब्ध आहे",
+        playStoreAvailabile: "प्ले स्टोअरची लिंक ५ मार्चनंतर उपलब्ध होईल",
+        joinTesting: "चाचणीमध्ये सामील होण्यासाठी, +91 9158051936 वर WhatsApp वर 'Hi' पाठवा",
   
         featTitle: "हार्वेस्ट ट्रॅक का निवडावे?",
         feat1Title: "स्मार्ट पीक देखरेख",
-        feat1Desc: "डिजिटल नोंदी आणि फोटो अपडेट्ससह तुमच्या पिकाच्या प्रत्येक टप्प्यावर लक्ष ठेवा.",
+        feat1Desc: "डिजिटल नोंदी आणि फोटो अपडेट्ससह तुमच्या पिकाच्या प्रत्येक टप्प्यावर लक्ष ठेवा. एजंट आणि मशीन मदतनीस नोंदणी करा, त्यांना कामासाठी नियुक्त करा आणि कामकाज सुव्यवस्थित करण्यासाठी प्रति-एकर रक्कम सेट करा.",
         feat2Title: "आर्थिक व्यवस्थापन",
-        feat2Desc: "तुमचा नेमका नफा मोजण्यासाठी खर्च आणि उत्पन्नाची अचूक नोंद ठेवा.",
+        feat2Desc: "तुमचा नेमका नफा मोजण्यासाठी खर्च आणि उत्पन्नाची अचूक नोंद ठेवा. प्रत्येक फोन कॉलचा मागोवा घ्या, पेमेंट स्थिती (पेड किंवा अनपेड) तपासा आणि शेतातील क्रियाकलाप पहा.",
         feat3Title: "त्वरित अहवाल",
         feat3Desc: "एका क्लिकवर बँकेसाठी PDF अहवाल आणि खरेदीदारांसाठी बिले तयार करा.",
   
-        guideTitle: "प्रीमियम कसे खरेदी करावे?",
-        step1: "खाते उघडा",
-        step1Desc: "तुमचा मोबाईल नंबर वापरून साइन अप करा.",
-        step2: "प्लॅन निवडा",
-        step2Desc: "तुमच्या शेतीसाठी योग्य प्लॅन निवडा.",
-        step3: "पेमेंट करा",
-        step3Desc: "UPI किंवा कार्डद्वारे सुरक्षित पेमेंट करा.",
+        guideTitle: "एक परीक्षक म्हणून नोंदणी कशी करावी",
+        step1: "लॉगिन बटणावर क्लिक करा",
+        step1Desc: "",
+        step2: "मालक म्हणून नोंदणी करा",
+        step2Desc: "",
+        step3: "माहिती भरा आणि आम्ही तुम्हाला एक OTP पाठवू, लॉग इन वर क्लिक करा",
+        step3Desc: "",
   
         useGuideTitle: "प्रीमियम वैशिष्ट्ये कशी वापरावी?",
         useStep1: "डॅशबोर्डवर जा",
@@ -196,13 +209,13 @@ export const content = {
         aboutDesc: "आम्ही तंत्रज्ञानाद्वारे शेती आधुनिक करण्यासाठी समर्पित आहोत. आमचे ॲप शेतकऱ्यांना त्यांचे काम कार्यक्षमतेने करण्यास मदत करते.",
         readStory: "आमची गोष्ट वाचा",
 
-        pricingTitle: "विनामूल्य चाचणी टप्पा",
-        pricingInfo: "आमची सेवा सध्या चाचणीच्या टप्प्यात आहे. आम्ही अद्याप प्रीमियम सेवा देत नाही. त्याऐवजी, वापरकर्ते या चाचणीच्या टप्प्यात सर्व वैशिष्ट्ये विनामूल्य वापरू शकतात.",
+        plansTitle: "योजना",
+        plansInfo: "आमची सेवा सध्या चाचणीच्या टप्प्यात आहे. आम्ही अद्याप प्रीमियम सेवा देत नाही. त्याऐवजी, वापरकर्ते या चाचणीच्या टप्प्यात सर्व वैशिष्ट्ये विनामूल्य वापरू शकतात.",
 
         privacyTitle: "गोपनीयता धोरण",
         privacyHeading: "हार्वेस्टट्रॅकसाठी गोपनीयता धोरण",
         privacyContent: {
-          introduction: "हार्वेस्टट्रॅक (“आम्ही”, “आमचे”, किंवा “आम्हाला”) तुमच्या गोपनीयतेचे संरक्षण करण्यासाठी वचनबद्ध आहे. तुम्ही आमचे ॲप वापरता तेव्हा आम्ही तुमची माहिती कशी गोळा करतो, वापरतो आणि संरक्षित करतो हे हे गोपनीयता धोरण स्पष्ट करते.",
+          introduction: "हार्वेस्टट्रॅक तुमच्या गोपनीयतेचे संरक्षण करण्यासाठी वचनबद्ध आहे. तुम्ही आमचे ॲप वापरता तेव्हा आम्ही तुमची माहिती कशी गोळा करतो, वापरतो आणि संरक्षित करतो हे हे गोपनीयता धोरण स्पष्ट करते.",
           informationWeCollect: "आम्ही गोळा करत असलेली माहिती",
           collectedData: [
             "नोंदणी आणि लॉगिन दरम्यान नाव आणि मोबाईल नंबर.",
@@ -242,7 +255,7 @@ export const content = {
           dataSharing: "डेटा शेअरिंग:",
           sharing: "ॲप ऑपरेशनसाठी आवश्यक असलेल्या बॅकएंड सेवा वगळता तृतीय पक्षांसोबत शेअर केलेले नाही.",
           dataEncryption: "डेटा एन्क्रिप्शन:",
-          encryption: "डेटा संक्रमणामध्ये आणि বিশ্রांतीमध्ये एनक्रिप्ट केलेला आहे.",
+          encryption: "डेटा संक्रमणामध्ये आणि বিশ্রாंतीमध्ये एनक्रिप्ट केलेला आहे.",
           userControl: "वापरकर्ता नियंत्रण:",
           control: "वापरकर्ते खाते आणि डेटा हटवण्याची विनंती करू शकतात."
         },
@@ -290,8 +303,8 @@ export const content = {
           messageLabel: "तुमचा संदेश",
           submitButton: "संदेश पाठवा",
           contactInfo: "संपर्क माहिती",
-          email: "support@harvesttrack.com",
-          phone: "+91 98765 43210",
+          email: "useapp.akshay@gmail.com",
+          phone: "+91 9158051936",
           address: "पुणे, महाराष्ट्र, भारत"
         },
         aboutUs: {
@@ -302,12 +315,12 @@ export const content = {
           },
           teamSection: {
             title: "आमची टीम",
-            content: "हार्वेस्ट ट्रॅक <strong>[तुमच्या कंपनीचे नाव / वैयक्तिक नाव]</strong> द्वारे विकसित आणि देखभाल केली जाते. आम्ही शेती आणि तंत्रज्ञानाबद्दल उत्कट आहोत, शेतकरी समुदायासाठी सर्वोत्तम साधने आणण्याचा प्रयत्न करत आहोत."
+            content: "हार्वेस्ट ट्रॅक <strong>आमच्या</strong> द्वारे विकसित आणि देखभाल केली जाते. आम्ही शेती आणि तंत्रज्ञानाबद्दल उत्कट आहोत, शेतकरी समुदायासाठी सर्वोत्तम साधने आणण्याचा प्रयत्न करत आहोत."
           }
         },
         nav: {
           home: "मुख्यपृष्ठ",
-          pricing: "किंमत",
+          plans: "योजना",
           privacyPolicy: "गोपनीयता धोरण",
           dataDeletion: "डेटा हटवणे",
           about: "बद्दल",
@@ -317,6 +330,15 @@ export const content = {
           termsAndConditions: "नियम आणि अटी",
           aboutUs: "आमच्याबद्दल",
           refundPolicy: "परतावा धोरण"
+        },
+        faq: {
+          title: "वारंवार विचारले जाणारे प्रश्न",
+          q1: "प्रीमियम कसे काम करते?",
+          a1: "प्रीमियम अमर्यादित नोंदी, सुरक्षित क्लाउड बॅकअप आणि तुमच्या कापणीसाठी तपशीलवार PDF अहवाल अनलॉक करते.",
+          q2: "मी माझे प्रीमियम कसे वाढवू?",
+          a2: "तुम्ही 'सदस्यता व्यवस्थापित करा' अंतर्गत ॲप सेटिंग्जद्वारे तुमची सदस्यता नूतनीकरण करू शकता. पेमेंट Razorpay द्वारे सुरक्षितपणे प्रक्रिया केली जातात.",
+          q3: "माझ्याकडे पेमेंट समस्या आहे. मी काय करावे?",
+          a3: "कृपया आमच्या समर्थन कार्यसंघाशी संपर्क साधा पृष्ठद्वारे तुमच्या व्यवहार आयडीसह संपर्क साधा आणि आम्ही ते 24 तासांच्या आत निराकरण करू."
         }
       }
     };

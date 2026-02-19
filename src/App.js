@@ -9,7 +9,7 @@ import TermsAndConditions from './TermsAndConditions';
 import ContactUs from './ContactUs';
 import RefundPolicy from './RefundPolicy';
 import AboutUs from './AboutUs';
-import Pricing from './Pricing';
+import Plans from './Plans';
 import FAQ from './FAQ';
 import {content} from './translations';
 import Language from './lang';
@@ -30,7 +30,7 @@ function App() {
           <nav style={{ display: 'flex', alignItems: 'center', gap: '15px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <Language lang={lang} setLang={setLang} />
             <Link to="/" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.home}</Link>
-            <Link to="/pricing" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.pricing}</Link>
+            <Link to="/plans" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.plans}</Link>
             <Link to="/privacy-policy" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.privacyPolicy}</Link>
             <Link to="/data-deletion" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.dataDeletion}</Link>
             <Link to="/about-us" className="nav-link" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>{content[lang].nav.about}</Link>
@@ -47,8 +47,8 @@ function App() {
             <Route path="/contact-us" element={<ContactUs lang={lang} content={content} />} />
             <Route path="/refund-policy" element={<RefundPolicy lang={lang} content={content} />} />
             <Route path="/about-us" element={<AboutUs lang={lang} content={content} />} />
-            <Route path="/pricing" element={<Pricing lang={lang} content={content} />} />
-            <Route path="/faq" element={<FAQ lang={lang} content={content} />} />
+            <Route path="/plans" element={<Plans lang={lang} content={content} />} />
+            <Route path="/faq" element={<FAQ lang={lang} />} />
             <Route path="/data-safety" element={<DataSafety lang={lang} content={content} />} />
             <Route path="/data-deletion" element={<DataDeletion lang={lang} content={content} />} />
           </Routes>

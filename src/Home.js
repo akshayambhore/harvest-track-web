@@ -4,11 +4,16 @@ import { Link } from 'react-router-dom';
 // import Spline from '@splinetool/react-spline'; // Uncomment if using Spline
 import step1 from './assets/temp.jpeg';
 import Language from './lang';
-
+import step2 from './assets/bg.jpeg';
+import RT1 from './assets/RT1.jpeg';
+import RT2 from './assets/RT2.jpeg';
+import RT3 from './assets/RT3.jpeg';
+import WCH1 from './assets/WCH1.jpeg';
+import WCH2 from './assets/WCH2.jpeg';
+// import step3 from './assets/temp.jpeg';
 
 const Home = ({ lang , content}) => {
   const t = content[lang] || content.en;
-
   return (
     <div className="home-page fade-in">
       {/* --- HERO SECTION --- */}
@@ -25,7 +30,7 @@ const Home = ({ lang , content}) => {
           <p className="hero-desc">{t.desc}</p>
 
           <div className="cta-group">
-            <Link to="/pricing" className="btn btn-primary">{t.btnPlan}</Link>
+            <a href="https://wa.me/919158051936?text=Hi" target="_blank" rel="noopener noreferrer" className="btn btn-primary">{t.btnPlan}</a>
             <Link to="/contact-us" className="btn btn-secondary">
               {t.btnContact}
             </Link>
@@ -39,6 +44,7 @@ const Home = ({ lang , content}) => {
               />
             </a>
           </div>
+          <p>{t.playStoreAvailabile}</p>
 
           {/* <div className="trust-badge">
             <div className="shield-icon">🛡️</div>
@@ -48,7 +54,20 @@ const Home = ({ lang , content}) => {
 
         {/* 3D Container */}
         <div className="home-right three-d-container">
-          {/* Optionally insert Spline or an illustration here */}
+          {
+            //generate a images tag
+            <img 
+              src={step2} 
+              alt="Harvest Track App Preview" 
+              style={{ 
+                width: '100%', 
+                height: '100%', 
+                objectFit: 'cover', 
+                borderRadius: '20px' 
+              }} 
+            />
+            
+          }
         </div>
       </div>
 
@@ -62,7 +81,7 @@ const Home = ({ lang , content}) => {
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-img-container">
-              <img src={step1} alt="Crop Monitoring" />
+              <img src={WCH1} alt="Crop Monitoring" />
               <div className="overlay" />
             </div>
             <div className="feature-content">
@@ -73,7 +92,7 @@ const Home = ({ lang , content}) => {
 
           <div className="feature-card">
             <div className="feature-img-container">
-              <img src={step1} alt="Financial Management" />
+              <img src={WCH2} alt="Financial Management" />
               <div className="overlay" />
             </div>
             <div className="feature-content">
@@ -82,38 +101,28 @@ const Home = ({ lang , content}) => {
             </div>
           </div>
 
-          <div className="feature-card">
-            <div className="feature-img-container">
-              <img src={step1} alt="Instant Reports" />
-              <div className="overlay" />
-            </div>
-            <div className="feature-content">
-              <h3>{t.feat3Title}</h3>
-              <p>{t.feat3Desc}</p>
-            </div>
-          </div>
         </div>
       </section>
 
       {/* --- GUIDE SECTION 1 (Buying) --- */}
-      <section className="guide-section bg-white">
+      <section className="guide-section bg-white registration-guide">
         <h2 className="section-title">{t.guideTitle}</h2>
         <div className="steps-container">
           <div className="step-card">
             <div className="step-number">01</div>
-            <div className="image-placeholder"><img src={step1} alt="Step 1" /></div>
+            <div className="image-placeholder"><img src={RT1} alt="Step 1" /></div>
             <h3>{t.step1}</h3>
             <p>{t.step1Desc}</p>
           </div>
           <div className="step-card">
             <div className="step-number">02</div>
-            <div className="image-placeholder"><img src={step1} alt="Step 2" /></div>
+            <div className="image-placeholder"><img src={RT2} alt="Step 2" /></div>
             <h3>{t.step2}</h3>
             <p>{t.step2Desc}</p>
           </div>
           <div className="step-card">
             <div className="step-number">03</div>
-            <div className="image-placeholder"><img src={step1} alt="Step 3" /></div>
+            <div className="image-placeholder"><img src={RT3} alt="Step 3" /></div>
             <h3>{t.step3}</h3>
             <p>{t.step3Desc}</p>
           </div>
@@ -241,8 +250,8 @@ const Home = ({ lang , content}) => {
 
         .feature-card { background:white; border-radius: var(--radius); overflow:hidden; box-shadow: var(--shadow-sm); transition: all 0.35s ease; border:1px solid #f0f0f0; }
         .feature-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-lg); }
-        .feature-img-container { height:220px; overflow:hidden; position:relative; }
-        .feature-img-container img { width:100%; height:100%; object-fit:cover; transition: transform 0.6s ease; }
+        .feature-img-container { height:570px; overflow:hidden; position:relative; }
+        .feature-img-container img { width:100%; height:100%; object-fit:contain; transition: transform 0.6s ease; }
         .feature-card:hover .feature-img-container img { transform: scale(1.06); }
         .feature-content { padding:2rem; text-align:center; }
         .feature-content h3 { font-size:1.25rem; margin-bottom:0.75rem; color:var(--secondary); }
@@ -255,7 +264,8 @@ const Home = ({ lang , content}) => {
         .step-card { flex:1; min-width:280px; max-width:350px; background:white; padding:2.5rem 2rem; border-radius:var(--radius); box-shadow:var(--shadow-sm); text-align:center; position:relative; transition: transform 0.3s ease; border:1px solid #eee; }
         .step-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
         .step-number { position:absolute; top:-20px; left:50%; transform:translateX(-50%); background:var(--secondary); color:white; width:40px; height:40px; line-height:40px; border-radius:50%; font-weight:bold; font-size:1rem; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-        .image-placeholder img { width:100%; border-radius:12px; margin:1rem 0; border:1px solid #f0f0f0; }
+        .image-placeholder { height: 550px; }
+        .image-placeholder img { width:100%; height: 100%; object-fit: contain; border-radius:12px; margin:1rem 0; border:1px solid #f0f0f0; }
 
         .about-section-home { background: var(--bg-light); color:white; padding:5rem 2rem; text-align:center; }
         .about-title { font-size:2.5rem; margin-bottom:1.5rem; }

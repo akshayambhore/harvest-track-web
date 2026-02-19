@@ -10,11 +10,11 @@ const DataDeletion = ({ lang, content }) => {
       <section>
         <h2>{t.dataDeletionHeading}</h2>
         <p>{t.dataDeletionContent.intro}</p>
-        <ul>
+        {/* <ul>
           {t.dataDeletionContent.steps.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
-        </ul>
+        </ul> */}
         <p>{t.dataDeletionContent.outro}</p>
       </section>
     </div>

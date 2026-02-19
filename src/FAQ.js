@@ -1,24 +1,25 @@
 import React from 'react';
+import { content } from './translations';
 
-const FAQ = () => {
+const FAQ = ({ lang }) => {
   return (
     <div className="page-container">
-      <h1>Frequently Asked Questions</h1>
+      <h1>{content[lang].faq.title}</h1>
       
       <div style={{marginTop: '20px'}}>
         <details style={{marginBottom: '15px', padding: '10px', border: '1px solid #eee'}}>
-            <summary><strong>How does Premium work?</strong></summary>
-            <p>Premium unlocks unlimited entries, secure cloud backup, and detailed PDF reports for your harvests.</p>
+            <summary><strong>{content[lang].faq.q1}</strong></summary>
+            <p>{content[lang].faq.a1}</p>
         </details>
 
         <details style={{marginBottom: '15px', padding: '10px', border: '1px solid #eee'}}>
-            <summary><strong>How do I extend my premium?</strong></summary>
-            <p>You can renew your subscription through the app settings under "Manage Subscription". Payments are processed securely via Razorpay.</p>
+            <summary><strong>{content[lang].faq.q2}</strong></summary>
+            <p>{content[lang].faq.a2}</p>
         </details>
 
         <details style={{marginBottom: '15px', padding: '10px', border: '1px solid #eee'}}>
-            <summary><strong>I have a payment issue. What should I do?</strong></summary>
-            <p>Please contact our support team via the Contact Us page with your transaction ID, and we will resolve it within 24 hours.</p>
+            <summary><strong>{content[lang].faq.q3}</strong></summary>
+            <p>{content[lang].faq.a3}</p>
         </details>
       </div>
     </div>
